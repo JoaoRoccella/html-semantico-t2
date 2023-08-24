@@ -8,7 +8,7 @@ Texto em __negrito__ com underline/underscore.
 
 Texto em *itálico* com asterisco.
 
-Texto em _itálico_ com underscore.
+Texto em _itálico_ com underscore/underline.
 
 [Google Brasil](https://google.com.br)
 
