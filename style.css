@@ -1,0 +1,9 @@
+body {
+    /* color:crimson; */
+}
+
+h1 {
+    color:firebrick;
+    line-height: 2;
+    font-weight: bold;
+}
