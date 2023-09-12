@@ -1,9 +1,57 @@
 body {
-    /* color:crimson; */
+    margin: 20px 50px;
+    background-color: #fffaf3;
 }
 
-h1 {
-    color:firebrick;
+p {
+    line-height: 1.2;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.paragrafo-de-artigo {
+    background-color: #765827;
+    color: #fffaf3;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.titulo-de-pagina {
+    color:#65451F;
     line-height: 2;
     font-weight: bold;
+    font-size: 24pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subtitulo-de-pagina {
+    color:#765827;
+    line-height: 1.5;
+    font-weight: bold;
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo-de-artigo {
+    color:#65451F;
+    line-height: 1.5;
+    font-weight: bold;
+    font-size: 16pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo-de-secao {
+    color:#765827;
+    line-height: 1.5;
+    font-weight: bold;
+    font-size: 16pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.autor-do-artigo {
+    color: #C8AE7D;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }

@@ -4,21 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Semântico</title>
-
-    <!-- CSS externo (arquivo style) -->
     <link rel="stylesheet" href="./reset.css">
-    <link rel="stylesheet" href="./style.css"> 
-
-    <!-- CSS interno (tag style) -->
-    <!-- <style>
-        body {
-            color:cornflowerblue !important;
-        }
-    </style> -->
+    <link rel="stylesheet" href="./style.css">
 </head>
 
-<!-- CSS inline (atributo style) -->
-<!-- <body style="color:hotpink;"> -->
 <body>
     <header id="topo-pagina">
         <nav>
@@ -32,7 +21,7 @@
             </ul>
         </nav>
         
-        <h1>Novo título da minha página</h1>
+        <h1 class="titulo-de-pagina">Novo título da minha página</h1>
         
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi exercitationem nihil fuga voluptates tempora eum, molestias totam corrupti odio voluptas illo, pariatur modi praesentium neque! Iure, reprehenderit! Totam eaque laudantium necessitatibus nobis doloremque quam labore quis id a, laboriosam veritatis minima atque ea iusto saepe.</p>
         
@@ -40,7 +29,7 @@
 
     <p>Quaerat rerum, veritatis a sequi quis suscipit dolore quae ex delectus et possimus minima cum maxime odio vitae labore dignissimos inventore. Error, rerum ut eveniet praesentium ullam facilis totam a aperiam minus consectetur animi qui doloremque accusamus, natus quam laudantium modi. Inventore aut unde ipsum.</p>
 
-    <h2>Novo subtítulo da minha página</h2>
+    <h2 class="subtitulo-de-pagina">Novo subtítulo da minha página</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nihil reiciendis impedit facere, perspiciatis dolorum, nulla, eligendi veritatis quia ipsam quisquam voluptate suscipit officia ut porro animi? Ipsum, enim voluptates.</p>
 
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni aliquam quis provident commodi quae magnam omnis iusto quam aperiam, id temporibus quisquam similique earum mollitia maiores incidunt? Culpa, quaerat? Nemo?</p>
@@ -48,24 +37,24 @@
     <article>
 
         <header>
-            <h1>A heading here</h1>
-            <p>Posted by John Doe</p>
-            <p>Some additional information here</p>
+            <h1 class="titulo-de-artigo">A heading here</h1>
+            <p class="autor-do-artigo">Posted by John Doe</p>
+            <p class="paragrafo-de-artigo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores atque nemo doloremque explicabo dicta quasi, necessitatibus totam? Itaque, recusandae culpa.</p>
         </header>
 
-        <p>Lorem Ipsum dolor set amet....</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos repellat voluptatibus dignissimos nisi beatae aperiam ut error quisquam totam aut.</p>
         
     </article>
 
     <article>
 
         <header>
-            <h1>A heading here</h1>
-            <p>Posted by John Doe</p>
-            <p>Some additional information here</p>
+            <h1 class="titulo-de-artigo">A heading here</h1>
+            <p class="autor-do-artigo">Posted by John Doe</p>
+            <p class="paragrafo-de-artigo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, eius? Ipsum repellendus sunt sit vitae odit. Autem repellendus amet excepturi!</p>
         </header>
 
-        <p>Lorem Ipsum dolor set amet....</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et at consequatur ratione molestiae voluptates facere rerum neque pariatur in doloribus!</p>
         
     </article>
 
@@ -73,7 +62,7 @@
 
         <a href="#topo-pagina">Topo</a>
 
-        <h2>Sobre nós</h2>
+        <h2 class="titulo-de-secao">Sobre nós</h2>
 
         <!-- Abreviação: p*2>lorem40 -->
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, debitis molestiae enim molestias aut aliquam voluptate magnam autem eveniet, sit officia sed, esse dolores blanditiis eius dicta non laborum doloribus quos cumque id aspernatur minima ipsa! Laboriosam alias deleniti necessitatibus?</p>
@@ -103,6 +92,7 @@
             Rua Moreira de Godói, 226 - Ipiranga - São Paulo - SP
         </address>
     </footer>
+    
     
 </body>
 </html>
