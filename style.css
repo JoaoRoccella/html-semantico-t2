@@ -14,6 +14,11 @@ p {
     color: #fffaf3;
     padding: 20px;
     border-radius: 20px;
+    margin: 0;
+}
+
+.paragrafo-de-artigo ~ p {
+    padding-top: 0;
 }
 
 .titulo-de-pagina {
