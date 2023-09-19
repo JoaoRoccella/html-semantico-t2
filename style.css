@@ -13,12 +13,21 @@ p {
     background-color: #765827;
     color: #fffaf3;
     padding: 20px;
-    border-radius: 20px;
     margin: 0;
 }
 
 .paragrafo-de-artigo ~ p {
     padding-top: 0;
+}
+
+.autor-do-artigo + .paragrafo-de-artigo {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.paragrafo-de-artigo:last-of-type {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .titulo-de-pagina {
