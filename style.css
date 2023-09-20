@@ -30,6 +30,7 @@ p {
     border-bottom-right-radius: 20px;
 }
 
+
 .titulo-de-pagina {
     color:#65451F;
     line-height: 2;
@@ -68,4 +69,9 @@ p {
     font-style: italic;
     margin-bottom: 10px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+article .paragrafo-de-artigo:last-of-type {
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
